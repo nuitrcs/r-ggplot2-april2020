@@ -6,9 +6,9 @@ This workshop also makes use of other `tidyverse` packages for data manipulation
 
 # Software and Files
 
-For this workshop, you'll need to install some R packages and download the workshop files from this repository. See below.
-
 Slides are available at 
+
+You will need R and RStudio for this workshop, and you will need the files from this repository to do the exercises.  See [installing or accessing R and RStudio](https://sites.northwestern.edu/researchcomputing/resources/r-and-rstudio/) for instructions.
 
 ## Packages
 
@@ -28,27 +28,6 @@ or use the buttons in the Packages window in RStudio to install them.
 
 If you previously installed `tidyverse` or `ggplot2`, please update `ggplot2` to the current version (3.3). You can use the Update button the Packages tab in RStudio to update the package.
 
-
-## Option 1: On your laptop 
-
-### R and RStudio
-
-This workshop assumes you have recent versions of R and RStudio - R 3.5 or later and RStudio 1.1. or later  Install or update packages listed above.
-
-### Workshop Materials
-
-[Download the materials from this repository.](http://sites.northwestern.edu/researchcomputing/resources/downloading-from-github/)
-
-Then double click on the `workshop.Rproj` file in the folder to launch the project in RStudio.  
-
-
-## Option 2: RStudio Cloud
-
-[RStudio Cloud](https://rstudio.cloud) is a way to run RStudio in your web browser.  Set up an account.  In Your Workspace, create a new project: Click on the down arrow next to New Project in the blue button, then select New Project from a Git Repository.  Provide the address of this repository: https://github.com/nuitrcs/r-ggplot2-april2020.  This will copy all of the files from this repository into your new project.  
-
-![rstudio cloud new project](images/rstudiocloud.png)
-
-You will also need to install packages in this project space.
 
 
 ## Reference
