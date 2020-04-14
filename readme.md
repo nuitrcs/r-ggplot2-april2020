@@ -37,15 +37,9 @@ This workshop assumes you have recent versions of R and RStudio - R 3.5 or later
 
 ### Workshop Materials
 
-To download workshop materials, click on the green Clone or Download button, then download the repository as a ZIP file.  
+[Download the materials from this repository.](http://sites.northwestern.edu/researchcomputing/resources/downloading-from-github/)
 
-![github download](images/githubdownload.png)
-
-Find the downloaded .zip file on your computer, likely in your Downloads folder.  Unzip it - usually by double-clicking.  This will create a directory called r-ggplot2-april2020-master.  Move this somewhere on your computer where you'll be able to find it, like your Documents folder.  
-
-Double click on the `workshop.Rproj` file in the folder to launch the project in RStudio.  Alternatively, open RStudio, then go to File :arrow_right: Open Project and find the `workshop.Rproj` file in the r-ggplot2-april2020-master directory to open.
-
-Alternatively, if you're familiar with git, you can create a new RStudio project directly from this repository.
+Then double click on the `workshop.Rproj` file in the folder to launch the project in RStudio.  
 
 
 ## Option 2: RStudio Cloud
