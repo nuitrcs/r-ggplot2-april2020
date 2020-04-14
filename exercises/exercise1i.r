@@ -15,6 +15,8 @@ unisex_counts
 
 
 
+# Change the plot to have male and female bars side by side
+
 
 
 # Bonus: Order the bars by the total number of babies, largest to smallest.

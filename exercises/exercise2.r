@@ -49,8 +49,8 @@ population_country_fe
 ggplot(___, aes(___, ___)) + 
   geom_point() + 
   geom_abline(aes(slope=1, intercept=0)) + # adds the diagonal line to show equal pop.
-  scale_x_log10("1995") + # cleans up the label
-  scale_y_log10("2013")   # cleans up the label
+  scale_x_log10("1995") + # cleans up the label, logs the axis
+  scale_y_log10("2013")   # cleans up the label, logs the axis
 
 # Part 2
 # Choose the right data set from those created above:

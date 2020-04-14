@@ -26,13 +26,16 @@ ggplot(unisex_data, aes(x=year, y=Male+Female, color=name)) +
 
 # Bonus: 
 # Can you define your own colors?
-# A named list with 9 colors is provided for you, but you can change it!
+# A vector with 9 colors is provided for you, but you can change it!
 # (You need 9 for the 9 names in the data)
 # Look at the help for scale_color_manual - especially the examples
 
 cols <- c("red", "orange", "yellow", "lightgreen", "green",
           "lightblue", "blue", "purple", "pink")
-names(cols) <- unique(unisex_data$name)
+# if you want to associate a specific color with a specific name;
+# otherwise it will just use them in order
+names(cols) <- unique(unisex_data$name)  
+cols
 
 ggplot(unisex_data, aes(x=year, y=Male+Female, color=name)) + 
   geom_line(size=2) +

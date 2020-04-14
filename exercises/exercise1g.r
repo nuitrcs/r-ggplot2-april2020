@@ -18,4 +18,6 @@ ggplot(unisex_data, aes(x=Male, y=Female)) +
 
 
 # Bonus: Reverse the order of the names in the facets
+# You might check out the forcats package for a useful function
+# or do it with factor() and the rev() function directly
 

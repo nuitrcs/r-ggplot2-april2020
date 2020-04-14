@@ -21,7 +21,18 @@ ggplot(unisex_data, aes(x=Male, y=Female)) +
 
 # Bonus: Reverse the order of the names in the facets
 
+unisex_data$name <- factor(unisex_data$name, 
+                           levels=rev(unique(unisex_data$name)))
 ggplot(unisex_data, aes(x=Male, y=Female)) + 
   geom_point() +
   theme_minimal() +
-  facet_wrap(~factor(name, levels=rev(unique(name))))
+  facet_wrap(~name)
+
+# or
+
+library(forcats)
+unisex_data$name <- fct_rev(unisex_data$name)
+ggplot(unisex_data, aes(x=Male, y=Female)) + 
+  geom_point() +
+  theme_minimal() +
+  facet_wrap(~name)
