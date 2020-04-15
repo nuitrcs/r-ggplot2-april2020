@@ -6,7 +6,7 @@ This workshop also makes use of other `tidyverse` packages for data manipulation
 
 # Software and Files
 
-Slides are available at https://nuitrcs.github.io/r-ggplot2-april2020/slides/.
+Slides are available at https://nuitrcs.github.io/r-ggplot2-april2020/slides/, or open the `index.html` file in the slides folder of the workshop materials once you download them.
 
 You will need R and RStudio for this workshop, and you will need the files from this repository to do the exercises.  See [installing or accessing R and RStudio](https://sites.northwestern.edu/researchcomputing/resources/r-and-rstudio/) for instructions.
 
