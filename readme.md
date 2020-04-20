@@ -1,8 +1,6 @@
-# R Visualization
+# R Data Visualization with ggplot2
 
-This workshop focuses on `ggplot2` for making plots in R.  The workshop also briefly covers additional packages.  
-
-This workshop also makes use of other `tidyverse` packages for data manipulation and transformation, but you do not need to know these packages for the exercises.
+This workshop covers how to use `ggplot2` for making plots in R. 
 
 # Software and Files
 
@@ -14,7 +12,7 @@ You will need R and RStudio for this workshop, and you will need the files from 
 
 Whether using R on your laptop or in the cloud, there are several packages you'll need to install: 
 
-* tidyverse
+* tidyverse (ggplot2 is included here, and a few additional packages are used for data manipulation prior to plotting)
 * babynames
 
 Install these with the R command
